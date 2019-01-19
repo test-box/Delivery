@@ -17,20 +17,20 @@ public class Server {
     }
 
     public void run() throws Exception {
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
+        EventLoopGroup bossGroup = new NioEventLoopGroup();                   // (1)
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
-            ServerBootstrap b = new ServerBootstrap();
+            ServerBootstrap b = new ServerBootstrap();                        // (2)
             b.group(bossGroup, workerGroup)
-             .channel(NioServerSocketChannel.class)
-             .childHandler(new ChannelInitializer<SocketChannel>() {
+             .channel(NioServerSocketChannel.class)                           // (3)
+             .childHandler(new ChannelInitializer<SocketChannel>() {          // (4)
                  @Override
                  public void initChannel(SocketChannel ch) throws Exception {
                      ch.pipeline().addLast(new DiscardServerHandler());
                  }
              })
-             .option(ChannelOption.SO_BACKLOG, 128)
-             .childOption(ChannelOption.SO_KEEPALIVE, true);
+             .option(ChannelOption.SO_BACKLOG, 128)                     // (5)
+             .childOption(ChannelOption.SO_KEEPALIVE, true);            // (6)
 
             // Привязываемся к порту и начинаем принимать входящие сообщения
             ChannelFuture f = b.bind(port).sync();
@@ -42,5 +42,14 @@ public class Server {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();
         }
+    }
+
+    public static void main(String[] args) throws Exception{
+        int port = 8080;
+        if (args.length > 0) {
+            port = Integer.parseInt(args[0]);
+        }
+
+        new Server(port).run();
     }
 }
