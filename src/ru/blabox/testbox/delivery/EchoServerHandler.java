@@ -11,7 +11,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
         // Просто получаем и отправляем сообщение обратно
         ByteBuf mes = (ByteBuf) msg;
         System.out.print(mes.toString(io.netty.util.CharsetUtil.US_ASCII));
-        ctx.write(msg);
+        ctx.writeAndFlush(msg);
     }
 
     @Override
