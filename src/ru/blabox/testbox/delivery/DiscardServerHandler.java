@@ -3,12 +3,15 @@ package ru.blabox.testbox.delivery;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import io.netty.util.ReferenceCountUtil;
 
 public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
     @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        // Просто получаем и ничего не отвечаем.
-        ((ByteBuf) msg).release();
+    public void channelRead(ChannelHandlerContext ctx, Object msg) {
+        // Просто получаем и отправляем сообщение обратно
+        ByteBuf mes = (ByteBuf) msg;
+        System.out.print(mes.toString(io.netty.util.CharsetUtil.US_ASCII));
+        ctx.write(msg);
     }
 
     @Override
