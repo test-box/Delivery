@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee5f613-1563-407d-b0d9-82e9638894b5" name="Default Changelist" comment="" />
+    <list default="true" id="5ee5f613-1563-407d-b0d9-82e9638894b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/TimeServerHandler.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +28,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/Server.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
@@ -38,7 +44,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/EchoServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
@@ -50,10 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/TimeServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClient.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="160">
+              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#705#952#0" expanded="true" />
@@ -76,7 +82,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
@@ -106,8 +112,11 @@
         <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/Server.java" />
-        <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClient.java" />
         <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/Server.java" />
+        <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClient.java" />
       </list>
     </option>
   </component>
@@ -145,6 +154,20 @@
             </path>
             <path>
               <item name="Delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="delivery" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Delivery" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -161,7 +184,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547984377290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547984856303" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -169,6 +192,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.blabox.testbox.delivery.client" />
+      <recent name="ru.blabox.testbox.delivery.server" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.blabox.testbox.delivery" />
     </key>
@@ -187,11 +214,11 @@
   </component>
   <component name="RunManager" selected="Application.TimeClient">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.blabox.testbox.delivery.Server" />
+      <option name="MAIN_CLASS_NAME" value="ru.blabox.testbox.delivery.server.Server" />
       <module name="Delivery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.blabox.testbox.delivery.*" />
+          <option name="PATTERN" value="ru.blabox.testbox.delivery.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +227,12 @@
       </method>
     </configuration>
     <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.blabox.testbox.delivery.TimeClient" />
+      <option name="MAIN_CLASS_NAME" value="ru.blabox.testbox.delivery.client.TimeClient" />
       <module name="Delivery" />
       <option name="PROGRAM_PARAMETERS" value="localhost 8080" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.blabox.testbox.delivery.*" />
+          <option name="PATTERN" value="ru.blabox.testbox.delivery.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,18 +262,17 @@
       <option name="presentableId" value="Default" />
       <updated>1547325280414</updated>
       <workItem from="1547325306899" duration="1440000" />
-      <workItem from="1547900943209" duration="26830000" />
+      <workItem from="1547900943209" duration="27346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28270000" />
+    <option name="totallyTimeSpent" value="28786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -257,7 +283,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32981783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32981783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,26 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/netty-all-4.1.32.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -339,7 +345,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
@@ -353,20 +369,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        <state relative-caret-position="360">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/TimeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/server/TimeServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/blabox/testbox/delivery/client/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#705#952#0" expanded="true" />

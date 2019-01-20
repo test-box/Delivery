@@ -1,4 +1,4 @@
-package ru.blabox.testbox.delivery;
+package ru.blabox.testbox.delivery.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;

@@ -1,4 +1,4 @@
-package ru.blabox.testbox.delivery;
+package ru.blabox.testbox.delivery.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
