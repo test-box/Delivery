@@ -5,6 +5,8 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 
 
 public class TimeClient {
@@ -21,9 +23,13 @@ public class TimeClient {
              .handler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel ch) throws Exception {
-                    ch.pipeline().addLast(new TimeClientHandler());
+                    ch.pipeline().addLast(
+                            new LoggingHandler(LogLevel.INFO),
+                            new TimeDecoder(),
+                            new TimeClientHandler()
+                    );
                 }
-            });
+             });
 
             // Запускаем клиент
             ChannelFuture f = b.connect(host, port).sync();                         // (5)
